@@ -1,3 +1,8 @@
+# 0.0.13
+
+- Minor changes
+---
+
 # 0.0.12
 
 - **Virtual Spaces** — Define ephemeral boxes containing your own customized widgets, and pop them up as floating overlays straight from a pie slice whenever you need them. Add, edit, name, and resize each space.
