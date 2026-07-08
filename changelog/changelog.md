@@ -1,3 +1,18 @@
+# 0.0.14
+
+- **Custom pie icons:** Each pie can now have its own icon. It appears in the pie list and is used automatically wherever that pie opens as a nested sub-pie. You can set it from the pie editor or override just the slice icon.
+- **Smarter icon overrides:** The action editor now clearly separates a *Custom Slice Icon* (this slice only) from a *Custom Global App Icon* (that app everywhere, including the app drawer), each with a preview and the icon's name. Pie actions can override the target pie's icon too.
+- **>Pressing outside< behavior:** New setting controlling what a second-finger tap outside an open pie does — *Nothing*, *Close Pie*, or *Go to parent pie* (steps back through nested sub-pies). A long press outside always closes the pie.
+- **Better back navigation:** When you step back to a parent pie, it now reappears where the current pie is, so your finger stays near the center.
+- **Delete confirmation:** Deleting a pie or removing a widget now requires a second tap to confirm, preventing accidental deletion.
+- **Action type icons:** The action-type dropdown in the pie editor now shows an icon for each type (App, Pie, System, Shortcuts, etc.).
+- **Restart Launcher:** New button in Settings to cleanly close and relaunch the app to apply changes or recover from issues.
+- **Icon fixes & polish:** Icon packs now apply immediately; the selected pack is correctly restored on startup/reset; icon search works with spaces (e.g. "face messenger") and shows the selected icon's name; app icons are centered with their label when labels are always shown.
+- **Multi-activity apps:** Apps that expose several launcher activities (e.g. Calculator++) now show the correct per-activity icon in pies and menus.
+- **Spanish localization:** The new "Pressing outside behavior" and "Restart Launcher" settings are now fully translated to Spanish.
+- Fixed spurious/double haptic feedback when navigating between pies.
+---
+
 # 0.0.13
 
 - Minor changes
