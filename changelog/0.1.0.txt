@@ -1,0 +1,13 @@
+- **Subpie placement presets** — one tap configures the whole subpie behavior at once, shown as selectable cards in Pie settings:
+  - **Locked**: the subpie stays exactly where the parent opened and never follows your finger.
+  - **Follow Finger (default)**: the subpie starts trailing your finger once you commit to a swipe.
+  - **Follow Finger (Center Button)**: the subpie follows your finger while keeping the center button under it, so a quick swipe lands ready on the center action.
+- **Advanced pie behavior settings** — for fine-tuning beyond the presets:
+  - **Subpie Placement**: open a subpie in the *Same Location* as its parent, or *Cursor* placement that travels in the swipe direction.
+  - **Cursor placement**: choose whether the subpie appears centered on your finger or at its inside edge (default) — the inside edge softens the "teleport" jump.
+  - **Pie Limit Barrier**: an invisible ring — move past it in any direction and the whole pie drags along with your finger (Inner Circle ±1px, 20/40/60/80%, or Outer Circle).
+  - **Same-direction Barrier**: turn on a barrier placed only in the direction you were already swiping (so a long opening swipe no longer traps you far from center), with a configurable barrier distance.
+- **Redesigned tutorial** — the guide is now split into **Beginner** and **Advanced** sections. The new *Pies & Subpies Placement* tutorial walks you through the three presets on live mini-pies, then lets you apply the one that feels best in one tap.
+- **Smarter app search** — the app drawer now normalizes accents/diacritics, so searching "cafe" matches "Café" and results are more consistent.
+- **Fixed** a bug where a subpie could open twice when using instant access within a pie.
+- **Better default pies on initial install** — Fresh installations and configuration resets now set up a rich 4-pie layout (Main, Social, Utilities, Productivity) with dynamic vendor app discovery (e.g. Phone, Browser, Camera, Music, Calendar), global package deduplication, slice padding fallback constraints, and a cohesive monochrome white icon scheme.
