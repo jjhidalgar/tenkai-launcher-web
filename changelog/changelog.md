@@ -1,3 +1,13 @@
+# 0.3.0
+
+- **Classic Dock**: A brand-new feature providing a traditional home screen dock. Customize appearance (opacity, lines, spacing), show notification badges (with options to filter out silent notifications), and configure easily with real-time preview and setup dialogs.
+- **Multiple Widgets per Virtual Space**: Place and position multiple widgets inside a single Virtual Space. Resize, align, and organize them dynamically.
+- **Pie Action Badges**: Get notification badges directly on the Pie menu slices for quick updates on unread notifications.
+- **Work Profile Support**: Fixed work profile app icon overrides so that apps in the work profile map and cache icons independently.
+- **Visual & UI Refinement**: Updated icons for Space, Virtual Space, and widget editing; fixed alignment issues in the settings screens.
+- **Localization**: Added full Spanish translations for the new classic dock and widget options.
+---
+
 # 0.2.0
 
 - **Subpie placement presets** — one tap configures the whole subpie behavior at once, shown as selectable cards in Pie settings:
