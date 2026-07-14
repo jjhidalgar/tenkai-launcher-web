@@ -1,3 +1,20 @@
+# 0.4.0
+
+- **Tenkai Capsules** — a new Compose-native home-screen widget that shows live text built from tokens like `{time}`, `{date}`, `{battery}`, `{charging}`, `{wifi}`, `{volume}`, `{track}` and `{artist}`. Customize font, size, weight, colors, background, border, shadow, alignment, and an optional icon, with a live preview as you edit. Set an optional tap action, or leave it non-tappable.
+- **Tenkai Action Icons** — a new tappable home-screen icon that runs any action (launch an app, toggle a setting, open a pie…). It can use the app's own icon and scales to fill the widget as you resize it.
+- **Widget Automations** — home-screen widgets (including Capsules) can now appear or hide automatically based on live system state: Wi‑Fi (any/specific SSID/not connected), Bluetooth (audio or selected devices), battery & charging, power saver, ringer mode, Do Not Disturb, and wired headset. A redesigned, more visual editor makes rules easy to build.
+- **Free Draw mode** — a new home-pie assignment mode. Draw lines across the wallpaper to split the screen into custom areas, then tap an area to assign a pie to it.
+- **App-wide font** — choose a font family used throughout the launcher, and set an independent launcher text size that ignores your phone's system font scaling. Tenkai Capsules can override the font family and weight per-capsule.
+- **Classic Docks redesign** — a reshaped Classic Docks settings screen for managing app-icon docks on the home screen, with quick-access buttons to control the dock.
+- **App drawer improvements** — cleaner frame, new context-menu options to add apps to a Classic Dock, a Space, or a Virtual Space, and settings integration.
+- **Fresh-install home screen** — new installs now start with clock and date Capsules placed at the top of the first space, with tap actions wired to your clock and calendar apps.
+- **Redesigned premium pages** — each premium feature now has its own explanation page with a live preview of the feature and a direct link to upgrade. Clicking a locked feature takes you straight to its page.
+- **Improved tutorials & help** — clearer introduction flow, better "edit pies" and "open app drawer" walkthroughs, and updated examples.
+- **Quick settings & control dock** — improved quick-settings toggles and unified control dock.
+- **Larger, better-scaled pies** — pies now use geometric-mean scaling for more consistent proportions, plus a new pie font-size setting.
+- **New system icons** — additional Material Symbols available to assign to actions and buttons.
+---
+
 # 0.3.0
 
 - **Classic Dock**: A brand-new feature providing a traditional home screen dock. Customize appearance (opacity, lines, spacing), show notification badges (with options to filter out silent notifications), and configure easily with real-time preview and setup dialogs.
