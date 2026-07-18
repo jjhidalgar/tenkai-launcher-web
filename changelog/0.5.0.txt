@@ -1,0 +1,4 @@
+- **New Gesture**: Spreading two fingers apart ("squeeze out") on the home screen now directly opens widget edit mode.
+- **Built-in Icons**: System Actions and Quick Actions (e.g., WiFi, DND, Bluetooth toggles) now have default built-in icons, showing appropriate visuals automatically.
+- **Improved Brightness Math**: Fixed a bug where brightness settings were excessively bright. The slider now uses Hybrid Log-Gamma curve conversion to match human perception and standard Android slider behaviors.
+- **Visual & Translation Polish**: Added correct plural forms for Spanish translations and cleaned up unused localization assets.

@@ -1,3 +1,11 @@
+# 0.5.0
+
+- **New Gesture**: Spreading two fingers apart ("squeeze out") on the home screen now directly opens widget edit mode.
+- **Built-in Icons**: System Actions and Quick Actions (e.g., WiFi, DND, Bluetooth toggles) now have default built-in icons, showing appropriate visuals automatically.
+- **Improved Brightness Math**: Fixed a bug where brightness settings were excessively bright. The slider now uses Hybrid Log-Gamma curve conversion to match human perception and standard Android slider behaviors.
+- **Visual & Translation Polish**: Added correct plural forms for Spanish translations and cleaned up unused localization assets.
+---
+
 # 0.4.0
 
 - **Tenkai Capsules** — a new Compose-native home-screen widget that shows live text built from tokens like `{time}`, `{date}`, `{battery}`, `{charging}`, `{wifi}`, `{volume}`, `{track}` and `{artist}`. Customize font, size, weight, colors, background, border, shadow, alignment, and an optional icon, with a live preview as you edit. Set an optional tap action, or leave it non-tappable.
