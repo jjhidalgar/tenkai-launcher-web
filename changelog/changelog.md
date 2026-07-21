@@ -1,3 +1,8 @@
+# 0.6.1
+
+- Minor changes
+---
+
 # 0.6.0
 
 - **21 new languages** — the app is now localized in Portuguese (Brazil & Portugal), Hindi, Indonesian, German, Japanese, Korean, French, Vietnamese, Turkish, Italian, Arabic, Traditional & Simplified Chinese, Dutch, Swedish, Thai, Polish, Russian, Filipino, Malay, and Romanian (previously English and Spanish only).
