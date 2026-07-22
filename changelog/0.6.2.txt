@@ -1,0 +1,4 @@
+- The **Default** pie theme now uses a lighter background (25% opacity instead of 50%), giving a cleaner, more see-through look over your wallpaper.
+- Fixed garbled accented and non-Latin characters (mojibake) in Settings across 18 languages — e.g. Spanish "Círculos"/"configuración" and similar words now display correctly.
+- Improved the Spanish translations.
+- Updated the contact and diagnostics/bug-report email addresses shown in Settings.
