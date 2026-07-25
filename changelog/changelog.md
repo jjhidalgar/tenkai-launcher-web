@@ -1,3 +1,10 @@
+# 0.7.1
+
+- **App Shortcut Default Launcher Warning**: When adding or configuring an app shortcut, Tenkai Launcher now displays a helpful warning with a one-tap button to set Tenkai Launcher as your default launcher (required by Android to access app shortcuts).
+- **Tabular Figures for Centered Capsules**: Clock and date capsules with centered text alignment now use monospaced tabular figures (`tnum`), keeping numeric digits visually centered and preventing text jumping as time changes.
+- **Improved Clock Grid Alignment**: Clock capsule dimensions are now calculated using even grid cell steps, ensuring exact horizontal centering on the widget grid.
+---
+
 # 0.7.0
 
 - **Home Gestures**: A new Home Gestures screen lets you bind actions to multi-finger swipes and pinches (two- and three-finger swipe up/down/left/right, pinch in, pinch out). Pinch-in defaults to opening launcher settings.
