@@ -1,0 +1,13 @@
+- **Home Gestures**: A new Home Gestures screen lets you bind actions to multi-finger swipes and pinches (two- and three-finger swipe up/down/left/right, pinch in, pinch out). Pinch-in defaults to opening launcher settings.
+- **Pies everywhere**: Pies are no longer limited to the empty-home-space touch. Two new ways to launch one, anywhere on the home screen or inside a space:
+  - **Action icons** — set a launcher icon's action to "Pie" and pressing it deploys that pie right where the icon sits.
+  - **Static Pie widgets** — a pie that's always drawn on the space; touch it to start interacting.
+  Each source picks its own Regular (press-and-drag to a slice) or Fixed (tap to open, tap to select) interaction mode.
+- **Fixed Pie mode**: A new per-pie interaction style — tap to open the pie, it stays put, then tap a slice to select. Subpies open in the same spot. Choose between "Regular" (press-swipe-release) and "Fixed" (tap-to-open, tap-to-select) per pie, or turn on Fixed Pie globally in settings.
+- **Shake to close**: Quickly wiggle back and forth between slices to dismiss the pie without launching anything.
+- **App drawer default sort**: Pick which sort tab the drawer opens on by default. The A–Z bar on the right edge now switches to the Name tab when touched, and a hint helps you drag apps onto a space.
+- **Next / Previous Space actions**: New pie/gesture actions to jump to the next or previous space.
+- **Drag to create action icons**: Drag from the unified control dock to create an action icon or open the app drawer.
+- **Consistent icons everywhere**: Icons now render the same way across pies, the drawer, the classic dock, capsules, action icons, and widgets.
+- **Faster, more reliable icons**: App icons are now cached to disk, so they persist across app restarts and crashes and load faster, with automatic cache expiration to stay fresh.
+- **Improved gesture/action editing**: A clearer premium-feature explanation dialog and refinements to the gesture preview and action edit screens.
