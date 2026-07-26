@@ -1,0 +1,7 @@
+- **New "Dark" pie theme**: A premium theme that unfolds a dark "void domain" from the center each time the pie opens (a Jujutsu-Kaisen-style domain expansion), then settles into a calm ambient state.
+- **Reworked theme system**: All pie themes now share one consistent model, so themes, previews, and premium gating stay in sync. Includes a full dark theme pass across the app.
+- **Smarter Back and Home buttons**: Pressing Home while a settings or nested screen is open now returns you straight to the home screen. On the home screen, Back steps back from a secondary space to your first space instead of leaking to the system.
+- **Fixed reappearing theme customizations**: Switching pie themes now correctly clears your previous customizations — they no longer "come back on their own" after a config reload.
+- **Scrollable, screen-adaptive menus**: The slice edit menus and icon selection menus now scroll and adapt to your screen, so nothing is cut off on smaller devices.
+- **Tidier settings & drawer**: Settings tabs use smaller text with icons and wrap cleanly when they overflow; app drawer chips and premium/debug chips now shrink and overflow onto the next line instead of getting clipped.
+- **Cleaner home pies**: Pies assigned to a home now show only the icon (no home text), and pie dots wrap across multiple lines when there are many.
