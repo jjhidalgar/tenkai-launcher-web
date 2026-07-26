@@ -1,0 +1,3 @@
+- **Diagnostics attachment fix**: "Email Developer" now sends the report as a proper attachment that reaches the developer reliably. The old flow could silently drop the attached log file on some email apps; the email chooser is also now limited to real email apps so the report can't be misrouted.
+- **Display & device info in diagnostics**: Diagnostics reports now include a Display section (live vs. stable density, the launcher's capped density, font scale, screen dp, and resolution) so UI sizing complaints are easier to reproduce and debug.
+- **Clearer share dialog**: The "Share Diagnostics" dialog now explains that the report includes your device info, app settings, and recent system logs, and reminds you to review the attached file before sharing.
