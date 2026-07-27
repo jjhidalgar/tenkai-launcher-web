@@ -1,3 +1,17 @@
+# 0.9.0
+
+- **New News Feed space**: A dedicated, scrollable news page that sits just before Home. Reach it from the News button in the control dock, a two-finger swipe, or a "Switch to News" pie/dock action. Tapping a card opens the article (in your browser or a built-in reader) and dims it as read.
+- **Free Google News**: Google News works for everyone at no cost. Choose your region and pick which topics (Top, World, and more) appear in your feed.
+- **Your own feeds (premium — News Sources)**: Add any RSS or Atom feed. Or just paste a link and the app builds the feed for you — Reddit subreddits, YouTube channels, Mastodon accounts, GitHub repos/users, and Bluesky profiles are all recognized automatically.
+- **FreshRSS sync (premium)**: Connect a self-hosted FreshRSS server to sync your feeds and read state, via either the Fever or Google Reader API.
+- **Reading gestures & filters**: Swipe a card right to toggle read/unread, left to favorite. Long-press for share, copy link, mark read/unread, or mute a source. Filter the feed by source or by All / Unread / Read / Favorites, and mark everything read at once.
+- **News themes**: Light, Dark, and two transparent variants (Light and Dark) that let your wallpaper show through, plus a "follow system" option. Dark stays the default.
+- **Better notifications**: Notification entries now show the notification's title, source/app name, and app icon, and correctly distinguish work-profile apps. New per-dock setting controls what tapping an app with notifications does — smart (direct if one, menu if several), always direct, always show the list, or a standard app launch.
+- **Notification list menu**: Tapping an app that has several notifications can now open a menu listing them, with an option to open the app's main screen.
+- **Dynamic dock app filter**: Classic docks in Notifications, Recently Used, and Frequently Used modes now support a per-dock whitelist (show only chosen apps) or blacklist (hide chosen apps). User-defined docks are unaffected.
+- **Smaller quality-of-life fixes**: Free tier now allows up to 5 action icons (was 3), two-finger gestures move between spaces by default, and pressing Back exits widget edit mode. Pies no longer trigger while scrolling the News feed, and the control dock's gray tap overlay was removed.
+---
+
 # 0.8.1
 
 - **Diagnostics attachment fix**: "Email Developer" now sends the report as a proper attachment that reaches the developer reliably. The old flow could silently drop the attached log file on some email apps; the email chooser is also now limited to real email apps so the report can't be misrouted.
