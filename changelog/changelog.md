@@ -1,3 +1,12 @@
+# 0.9.2
+
+- **Automatic Notification Rebind**: Launcher now automatically reconnects to Android's Notification Listener Service on resume, ensuring notification badges update reliably without requiring a device reboot or manual toggle.
+- **Notifications & Badges Setting**: Added a dedicated Notifications & Badges section in General Settings with permission status and quick shortcut to system Notification Access.
+- **Unified Notification Badges**: Red dot notification badges on Classic Dock icons now consistently respect the global Notification Badges setting.
+- **Touch & Gesture Fixes**: Fixed an issue where static pie widgets could block touch input on bottom action icons, and resolved regressions affecting home screen gestures.
+- **Layout Optimization**: Removed unnecessary bottom margins on the home screen layout.
+---
+
 # 0.9.1
 
 - **News Feed Tabs & Filters:** Redesigned header controls with dedicated category tabs, source filter dropdowns, and quick status toggles.
