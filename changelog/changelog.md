@@ -1,3 +1,13 @@
+# 0.9.1
+
+- **News Feed Tabs & Filters:** Redesigned header controls with dedicated category tabs, source filter dropdowns, and quick status toggles.
+- **Transparent Theme Enhancements:** Improved contrast, text readability, chip styling, and button visibility across Dark Transparent and Light Transparent themes.
+- **Continuous Dock Swipe:** Fixed gesture handling when continuously sliding across spaces and docks.
+- **Image Loading Reliability:** Card layout no longer flashes or reserves blank space for corrupted, broken, or 1x1 spacer images.
+- **Work Profile Support:** Fixed icon caching so primary profile and Work Profile apps retain distinct icons.
+- **Performance Optimizations:** Smoother A-Z index bar scrolling in the App Drawer and faster particle effect dismissal on touch release.
+---
+
 # 0.9.0
 
 - **New News Feed space**: A dedicated, scrollable news page that sits just before Home. Reach it from the News button in the control dock, a two-finger swipe, or a "Switch to News" pie/dock action. Tapping a card opens the article (in your browser or a built-in reader) and dims it as read.
