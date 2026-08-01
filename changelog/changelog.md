@@ -1,3 +1,25 @@
+# 0.10.0
+
+- **Unified Control Dock**:
+  - Configurable display options: Always Visible, Auto-Hide on gesture, Hidden, and Collapsed dock modes.
+  - Direct shortcut to dock settings from Edit Mode.
+  - Resolved home screen gesture interception bugs when dock visibility changes.
+- **Tenkai Catch-Up Widget & System**:
+  - New integrated Catch-Up widget displaying date, time, news, inbox items, and personal notes/tasks.
+  - Smart defaults for fresh installs with pre-configured news feeds and essential widgets.
+  - Full widget area utilization and unconstrained horizontal page scrolling.
+- **Share Sheet Integration (`ACTION_SEND`)**:
+  - Share web links, articles, and text snippets from external applications directly into Tenkai Inbox and Catch-Up notes.
+- **Launcher Quick Settings**:
+  - Dedicated Quick Settings popup menu for fast access to launcher settings, Edit Mode, news/inbox, pie configuration, dock settings, and home gestures.
+- **Notifications & UI Improvements**:
+  - Per-conversation notification grouping and splitting options.
+  - Interactive notification popups with quick action buttons and improved swipe-to-dismiss behavior.
+- **Performance & Fixes**:
+  - In-memory icon caching layer for faster pie menu and dock rendering.
+  - Fixed gesture timing race condition when exiting widget edit mode.
+---
+
 # 0.9.2
 
 - **Automatic Notification Rebind**: Launcher now automatically reconnects to Android's Notification Listener Service on resume, ensuring notification badges update reliably without requiring a device reboot or manual toggle.
