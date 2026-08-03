@@ -1,0 +1,12 @@
+- **Redesigned App Contextual Menus**:
+  - **Pie & List Menu Modes**: Render contextual options either as a full gesture-based radial pie menu or as a drag-and-release list (tap list for dock icons).
+  - **Per-Element Customization**: Individual pie slices, action icons, and classic dock items can each customize their own contextual menu behavior.
+  - **Custom Pie Group Bindings**: Select specific pie groups to generate custom contextual entries upon long-pressing an item.
+  - **Reorganized Settings**: Contextual menu options consolidated in the General tab of Launcher Settings.
+- **Android App Shortcuts & System Pinning**:
+  - Support for Static, Dynamic, and Pinned Android App Shortcuts across launcher elements.
+  - Capture system pin requests (`requestPinAppWidget` & pin shortcut intents) with interactive target placement into primary or virtual spaces.
+  - Dedicated Pinned Shortcuts management UI in Launcher Settings with dynamic lifecycle tracking and cleanup.
+- **Enhanced Contact Avatars for Phone Calls**:
+  - Extract and display caller contact photos and avatars for call/phone notifications (`CATEGORY_CALL`, `CATEGORY_MISSED_CALL`, `CallStyle`, and `Person` extras).
+  - Multi-tiered avatar resolution via LauncherApps shortcuts, Person extras, and contact dialer search (`ContactsContract.PhoneLookup`).
