@@ -1,3 +1,20 @@
+# 0.12.0
+
+- **Widget Position Control System**:
+  - Added a dedicated Position Control bar in edit mode featuring directional pixel-nudge arrows, screen edge alignment controls (top, bottom, left, right), Z-order layer depth cycling, and a transparency adjustment slider.
+  - Tap on widgets in edit mode to cycle layer depth (bring to front / send to back) without interrupting drag-to-move or resize gestures.
+- **Categorized Widget Picker Dialog**:
+  - Reorganized the "Add Widget" picker into two collapsible sections: "Tenkai Widgets" and "Third Party Widgets" with search filtering.
+- **Catch-Up Widget & Notification Improvements**:
+  - Resolved an issue in the Catch-Up widget where notification items briefly displayed artwork/avatars before reverting to generic app icons.
+  - Updated single notification popups so action buttons remain visible even with large notification content bodies.
+- **Gesture Precision & Dock Defaults**:
+  - Fixed contextual menu long-press logic so sliding off a slice or action icon cancels the menu timer instead of triggering unexpectedly.
+  - Set default notification tap action for "User Selected", "Recently Used", and "Frequently Used" classic docks to standard app launch.
+- **Settings UI Enhancements**:
+  - Reorganized settings tab layout, adjusted margins, and reordered permission toggles.
+---
+
 # 0.11.0
 
 - **Redesigned App Contextual Menus**:
