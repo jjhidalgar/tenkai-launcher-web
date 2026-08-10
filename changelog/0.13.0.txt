@@ -1,0 +1,17 @@
+- **HTTP Actions & Reusable Queries**:
+  - Configure reusable HTTP request templates (GET, POST, PUT, DELETE) with headers, payloads, and custom response handling.
+  - Trigger HTTP queries directly from Pie Actions or Widget Automations.
+  - New dark-themed Toast Overlay with visual click animations, pulse feedback, and haptic feedback.
+- **Unified Control Dock Enhancements**:
+  - Dedicated Control Dock settings screen with customizable display modes and behavior.
+  - Configurable auto-collapse timers with pause-on-touch interaction.
+  - Badge indicator showing pending Inbox catch-up items with an option to keep the Inbox icon visible when items are pending.
+  - Refined tap interactions to prevent accidental dock collapses when unhidden.
+- **Classic Dock Enhancements**:
+  - Filter "Recently used apps" by recency (5 minutes to 7 days, or show all).
+  - Improved dock settings screen with live previews and quick configuration shortcuts.
+- **Tenkai Capsule & Automation Upgrades**:
+  - Added text rotation options (0°, 90°, 180°, 270°) for Tenkai Capsules.
+  - Added new system tokens for alarms, bedtime, playback/media status, network modes, and orientation.
+- **UI & Layout Fixes**:
+  - Fixed text overflow and vertical clipping in Quick Settings on smaller screens.
