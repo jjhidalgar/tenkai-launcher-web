@@ -1,3 +1,12 @@
+# 0.15.0
+
+- **Advanced Tenkai Capsule Syntax & Formulas**:
+  - Enhance Tenkai Capsules with custom formula syntax supporting conditionals (`{if ...}`), fallback values (`{token || fallback}`), and text transformation functions (`UPPER`, `LOWER`, `TRUNCATE`, etc.).
+  - Access an in-app interactive syntax guide and reference documentation directly from the Capsule settings.
+- **Classic Dock Pie Actions**:
+  - Assign Pie actions to items on Classic Docks to seamlessly trigger radial menus and gestures from dock shortcuts.
+---
+
 # 0.14.0
 
 - **Inbox Trash & Soft-Delete**:
