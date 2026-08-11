@@ -1,3 +1,20 @@
+# 0.14.0
+
+- **Inbox Trash & Soft-Delete**:
+  - Delete notes and catch-up items into a Trash list with options to restore or permanently delete items.
+  - Repositioned trash action buttons for cleaner clearance from gesture and navigation bars.
+- **Notes Search Box**:
+  - Real-time search in the Notes tab, prioritizing title matches first followed by description text.
+- **Inbox Item Reordering & Gestures**:
+  - Drag-and-drop reordering and improved gesture handling for notes and catch-up entries.
+- **Catch-Up Widget Customization**:
+  - Customizable entry spacing/margin and padding options in the Catch-Up widget configuration screen.
+- **Work Profile Support in Recent Apps**:
+  - Recent app listings now properly distinguish between main profile and work profile app instances.
+- **Control Dock Enhancements**:
+  - Refined default dock padding, button visibility in collapsed states, and updated settings labels.
+---
+
 # 0.13.0
 
 - **HTTP Actions & Reusable Queries**:
