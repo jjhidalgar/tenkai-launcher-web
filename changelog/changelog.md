@@ -1,3 +1,16 @@
+# 0.16.0
+
+- **Custom Image Icon Picker**: Select custom photos from your device gallery to use as icons for pie slices and capsules.
+- **Photo Rotation & Optimization**: Camera photos now automatically respect EXIF orientation (staying upright) and downsample high-resolution images to conserve device RAM.
+- **Improved Icon Gallery**: Picked images are saved to local app storage with full management and deletion options available inside the icon picker.
+- **Work Profile Shortcut Cleanup**: Unused pinned shortcuts are now properly audited and cleaned up across both primary and Work Profiles.
+- **Stability & Performance Improvements**:
+  - Smoother icon pack switching with automatic pruning of obsolete cached icons.
+  - Better contact avatar memory management in notification listening.
+  - Fixes for raw JSON text rendering in capsules when jsonPath fails or is empty.
+  - Properly unescapes Unicode sequences (`\uXXXX`) in resolved Google News publisher links.
+---
+
 # 0.15.0
 
 - **Advanced Tenkai Capsule Syntax & Formulas**:
