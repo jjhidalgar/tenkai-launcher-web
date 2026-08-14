@@ -1,3 +1,11 @@
+# 0.17.0
+
+- **Expandable Notification Conversations**: Tap notifications to expand and view full messaging conversation history (grouped cleanly by sender with timestamps) and multi-line inbox summaries directly from the dock, notification dialog, or inbox.
+- **Dismiss All App Notifications**: Quickly clear all notifications for a specific app with a new "Dismiss all" action in notification menus and dock popups.
+- **Capsule Vertical Alignment & Line Height**: Enhanced Tenkai Capsule customization with options to align text vertically (Top, Center, Bottom) and fine-tune line spacing multiplier.
+- **Notification Deduplication Fix**: Resolved an issue where separate notifications with different subtext could be incorrectly merged together.
+---
+
 # 0.16.0
 
 - **Custom Image Icon Picker**: Select custom photos from your device gallery to use as icons for pie slices and capsules.
