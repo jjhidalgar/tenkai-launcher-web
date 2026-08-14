@@ -1,3 +1,11 @@
+# 0.18.0
+
+- **Streamlined App Drawer Context Menu**: Reorganized the long-press menu on drawer apps into clear grouped sections separated by dividers for faster scanning and easier navigation.
+- **App Shortcuts in Drawer**: Quickly launch static and dynamic app shortcuts with the new "App Menu" option in the context menu.
+- **Direct Uninstall**: Easily uninstall apps directly from their context menu in the app drawer.
+- **Unified "Add to…" Dialog**: Simplified placing apps onto Home Spaces, Virtual Spaces, Classic Docks, Pie Menus, or Home Gestures via a single, unified placement screen.
+---
+
 # 0.17.0
 
 - **Expandable Notification Conversations**: Tap notifications to expand and view full messaging conversation history (grouped cleanly by sender with timestamps) and multi-line inbox summaries directly from the dock, notification dialog, or inbox.
