@@ -1,3 +1,11 @@
+# 0.20.0
+
+- **Redesigned Notification Conversation View**: Enjoy a modern chat-bubble interface for messaging notifications. Group chats and direct messages now feature larger, neatly aligned sender avatars, intuitive bubble styling, and automatic scroll-to-bottom on opening.
+- **Seamless Foldable Transitions**: Unfolding or folding foldable devices now transitions smoothly without restarting the launcher activity or losing UI state.
+- **Improved Default Launcher Dialog**: Standardized and streamlined the prompt flow to set Tenkai Launcher as your default home screen app across all Android versions.
+- **Spaces Migration Reliability**: Resolved an edge-case migration issue where certain custom space widget layouts could lose their items during the space migration step.
+---
+
 # 0.19.0
 
 - **Advanced Space Management & Foldable Automations**: Create, name, color-code, and reorder home spaces. Configure dynamic screen posture rules (`Folded`, `Unfolded`, `Flex Mode`, `Compact/Medium/Expanded`, `Orientation`, `External Display`) to automatically switch spaces, set posture-specific default spaces, or assign custom pie menu touch layouts per space.
