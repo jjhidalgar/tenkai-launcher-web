@@ -1,3 +1,16 @@
+# 0.21.0
+
+- **Location Tokens & Weather Presets**: Introduced native passive location coordinates (`{latitude}`, `{longitude}`) and city reverse geocoding (`{city}`). Pre-configured Open-Meteo weather queries are now available out of the box.
+- **Location Automations**: Automatically show or hide widgets and spaces based on your current city using flexible matching rules (`equals`, `not equals`, `contains`).
+- **Smart Info Bar & Capsule Presets**: Added a default Smart Info Bar displaying weather, alarms, battery, DND, and now playing status. Easily apply pre-built Capsule templates including Clock, Date, Power & Network, and Music Player from the new Presets dialog.
+- **Expanded Numeric Formula Tokens**: Power your capsule formulas with `{alarm_in_minutes}`, `{alarm_in_hours}`, `{volume_percent}`, `{storage_free_gb}`, `{storage_free_mb}`, `{month_num}`, and `{weekday_num}` with relational operators and percentage handling.
+- **Stock Price Presets & HTTP Subqueries**: Added Twelve Data stock price presets with ticker variants (AAPL, GOOGL). HTTP subqueries can now reuse base response payloads with JSON path overrides without extra network requests.
+- **HTTP Automation Live Inspector**: Test HTTP queries inline directly within the automation builder, inspect response payloads, and easily bind conditions using rich numeric and string operators.
+- **Cleaner Widget Editing**: Entering widget edit mode now keeps corner buttons hidden by default. Tap any widget to display its resize, settings, or delete handles, and tap empty space to deselect.
+- **Notification Animation Polish**: Snappy expand/collapse animations and refined swipe-to-dismiss background accents in dock bubbles and notification inboxes.
+- **Catch-Up & Shortcut Fixes**: Fixed icon pack rendering for items saved to the Catch-Up widget, and resolved pinned shortcut synchronization issues when adding shortcuts from external apps.
+---
+
 # 0.20.0
 
 - **Redesigned Notification Conversation View**: Enjoy a modern chat-bubble interface for messaging notifications. Group chats and direct messages now feature larger, neatly aligned sender avatars, intuitive bubble styling, and automatic scroll-to-bottom on opening.
