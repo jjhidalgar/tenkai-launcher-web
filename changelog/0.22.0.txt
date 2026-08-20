@@ -1,0 +1,9 @@
+- **Smart Status Visual Configurator**: Easily build and customize smart status widgets with visual toggles for Clock, Date, Battery & Eco Saver, Alarms, DND & Ringer, Media Player, and Universal Indicators without having to write code manually.
+- **Smart Status Formula Sync & Safety**: Seamlessly switch between the visual Smart Status builder and the raw Capsule Code editor with automatic formula synchronization, style preservation, and overwrite safeguards.
+- **Advanced Formula Automations**: Create complex widget and space automations using custom formula expressions (e.g. `{battery} < 20 && !{charging}`) with an integrated token picker and live condition preview.
+- **Schedule & Alternating Week Triggers**: Automate spaces and widgets with interactive Time Between pickers, Day of Week chips, and Bi-Weekly (`Even Week` / `Odd Week`) schedule conditions for alternating shift or school routines.
+- **Stream Volume Tokens & Triggers**: Access full audio stream levels and percentages across Ring, Alarm, Notification, Voice Call, System, and Media (`{volume_ring}`, `{volume_alarm}`, `{volume_notification}`, `{volume_call}`, `{volume_system}`) in capsules and automations.
+- **Week Number Tokens**: Support for calendar week numbers across Device Locale (`{week}`), ISO 8601 (`{week_iso}`), and US (`{week_us}`) standards with padded variants.
+- **Digital Assistant System Action**: Added a built-in Digital Assistant action to trigger your default device assistant directly from pie gestures, submenus, or dock slots.
+- **Quick Settings Shortcuts**: Quick Settings dialog now includes direct shortcuts to configure HTTP Queries and the Unified Control Dock.
+- **Dock & Settings Polish**: Fixed dock slot visibility resolution and ordering in collapsed mode, unified control button styling, and fixed settings import stability.
